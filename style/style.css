@@ -180,6 +180,41 @@ main{
  .sponsor-company img{
    filter: grayscale(100%);
  }
+ /* feature style */
+#feature-border{
+    border-left: 7px solid #FF900E;
+    padding-left: 20px;
+   
+}
+.feature-box-title{
+    font-size: 1.2rem;
+    font-weight: 600px;
+    color: rgb(231, 106, 106);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feature-box{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(234, 5, 5, 0.06);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.features{
+    display: flex;
+    gap: 140px;
+}
+
+ .feature-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+ }
+ .feature-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+ }
 
 /* small device responsibe layout */
 @media screen and (max-width:576px) {
@@ -205,6 +240,8 @@ main{
         justify-items: center;
         gap: 50px;
     }
+
+
     
 }
 /* medium ddevice responsibe */
